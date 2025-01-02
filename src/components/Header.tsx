@@ -134,7 +134,7 @@ const Header = () => {
               Book Free Consultation
             </Link>
             <Link
-              to="/"
+              to="/blogs"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Blogs
@@ -216,7 +216,7 @@ const Header = () => {
             Book Free Consultation
           </Link>
           <Link
-            to="/"
+            to="/blogs"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
           >
             Blogs
