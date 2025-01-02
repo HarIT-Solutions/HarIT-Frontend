@@ -10,6 +10,9 @@ import Blogs from './pages/Blogs.tsx'
 import Services from './pages/Services.tsx'
 import BookFreeConsultation from './pages/BookFreeConsultation.tsx'
 import Faqs from './pages/Faqs.tsx'
+import WebDevelopment from './pages/WebDevelopment.tsx'
+import MobileDevelopment from './pages/MobileDevelopment.tsx'
+import CloudSolutions from './pages/CloudSolutions.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -18,6 +21,9 @@ createRoot(document.getElementById('root')!).render(
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/webdevelopment" element={<WebDevelopment />} />
+          <Route path="/mobiledevelopment" element={<MobileDevelopment />} />
+          <Route path="/cloudsolutions" element={<CloudSolutions />} />
           <Route path="/about" element={<About />} />
           <Route path="/clients" element={<Clients />} />
           <Route path="/book-consultation" element={<BookFreeConsultation />} />
