@@ -8,14 +8,14 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
+      <section className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-24">
         <div className="container mx-auto px-6">
-          <h1 className="text-5xl font-bold mb-4">
+          <h1 className="md:text-5xl text-3xl font-bold mb-4">
             Transform Your Business with Modern IT Solutions
           </h1>
-          <p className="text-xl mb-8">
+          <p className="md:text-xl text-sm mb-8">
             Empowering businesses with cutting-edge technology and innovative
             solutions
           </p>

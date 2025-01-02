@@ -9,19 +9,16 @@ const Footer = () => {
           {/* Company Info */}
           <div className="mb-8 md:mb-0">
             <h3 className="text-lg font-semibold mb-4">HarIT Solutions</h3>
-            <p className="mb-2">Business Street</p>
             <p className="mb-2">Nairobi, Kenya</p>
-            <p className="mb-2">Phone: +254745678900</p>
           </div>
 
           {/* Services Links */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><Link to="/service1" className="hover:text-gray-300">Website Development</Link></li>
-              <li><Link to="/service2" className="hover:text-gray-300">Mobile Development</Link></li>
-              <li><Link to="/service3" className="hover:text-gray-300">Cloud Services</Link></li>
-              <li><Link to="/service4" className="hover:text-gray-300">Data Analytics</Link></li>
+              <li><Link to="/webdevelopment" className="hover:text-gray-300">Website Development</Link></li>
+              <li><Link to="/mobiledevelopment" className="hover:text-gray-300">Mobile Development</Link></li>
+              <li><Link to="/cloudsolutions" className="hover:text-gray-300">Cloud Solutions</Link></li>
             </ul>
           </div>
 
@@ -29,20 +26,19 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/careers" className="hover:text-gray-300">Careers</Link></li>
-              <li><Link to="/contact" className="hover:text-gray-300">Contact</Link></li>
-              <li><Link to="/blogs" className="hover:text-gray-300">Blogs</Link></li>
-              <li><Link to="/frequently-asked-questions" className="hover:text-gray-300">FAQ</Link></li>
+              <li><Link to="/" className="hover:text-gray-300">Careers</Link></li>
+              <li><Link to="/" className="hover:text-gray-300">Contact</Link></li>
+              <li><Link to="/" className="hover:text-gray-300">Blogs</Link></li>
+              <li><Link to="/" className="hover:text-gray-300">FAQ</Link></li>
             </ul>
           </div>
 
           {/* Legal Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <ul className="space-y-2">
-              <li><Link to="/privacy" className="hover:text-gray-300">Privacy Policy</Link></li>
-              <li><Link to="/terms" className="hover:text-gray-300">Terms of Service</Link></li>
-              <li><Link to="/cookies" className="hover:text-gray-300">Cookie Policy</Link></li>
+              <li><Link to="/" className="hover:text-gray-300">Privacy Policy</Link></li>
+              <li><Link to="/" className="hover:text-gray-300">Terms of Service</Link></li>
+              <li><Link to="/" className="hover:text-gray-300">Cookie Policy</Link></li>
             </ul>
           </div>
         </div>

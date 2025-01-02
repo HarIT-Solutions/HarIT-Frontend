@@ -82,7 +82,7 @@ const MobileDevelopment = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-50 pt-24 px-4 sm:px-6 lg:px-8">
       {/* Hero Section */}
       <div className="text-center mb-16">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
@@ -150,6 +150,17 @@ const MobileDevelopment = () => {
             </div>
           ))}
         </div>
+      </div>
+
+      {/* Call to Action */}
+      <div className="max-w-4xl mx-auto text-center mt-16">
+        <h2 className="text-2xl font-semibold mb-4">Need a Custom Solution?</h2>
+        <p className="text-gray-600 mb-8">
+          Contact us to discuss your specific requirements and get a tailored solution for your business
+        </p>
+        <button className="bg-blue-600 text-white py-3 px-8 rounded-md hover:bg-blue-700 transition duration-200">
+          Contact Us
+        </button>
       </div>
     </div>
   );

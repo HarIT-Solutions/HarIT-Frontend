@@ -23,7 +23,7 @@ const Services = [
 
 const ServiceCard = () => (
   <section className="container py-16 mx-auto px-6">
-    <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
+    <h2 className="text-3xl font-bold text-center mb-12">What we offer</h2>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       {Services.map((service, index) => (
         <div
