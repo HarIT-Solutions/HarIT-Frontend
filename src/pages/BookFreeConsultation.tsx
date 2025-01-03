@@ -49,7 +49,7 @@ const BookFreeConsultation = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-50 py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-sm p-4 sm:p-6 md:p-8">
         <h1 className="text-2xl sm:text-3xl font-bold mb-6 text-center text-gray-800">
           Book a Free Consultation

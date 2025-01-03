@@ -2,16 +2,16 @@
 
 const About = () => {
   return (
-    <div className="py-12">
+    <div className="py-24">
       <div className="max-w-7xl mx-auto px-6">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
-          About HarIT Solutions
+          About DigIT Solutions
         </h1>
         
         <section className="my-8">
           <h2 className="text-3xl font-semibold mb-4">Our Mission</h2>
           <p className="text-gray-700 leading-relaxed">
-            At HarIT Solutions, we are dedicated to delivering innovative IT solutions 
+            At DigIT Solutions, we are dedicated to delivering innovative IT solutions 
             that empower businesses to thrive in the digital age. Our commitment to 
             excellence and customer satisfaction drives everything we do.
           </p>
@@ -44,7 +44,7 @@ const About = () => {
         <section className="my-8">
           <h2 className="text-3xl font-semibold mb-4">Our Journey</h2>
           <p className="text-gray-700 leading-relaxed">
-            Founded in 2023, HarIT Solutions has grown from a small startup to 
+            Founded in 2023, DigIT Solutions has grown from a small startup to 
             a trusted technology partner for businesses across multiple industries. 
             Our journey is marked by continuous learning, adaptation, and growth.
           </p>
